@@ -1,4 +1,4 @@
-# Welcome to FrozenAdam repository
+# Welcome to FrozenAdam Repository
 This repo contains the sourse code of a simple Java Application used to demonstrate the CI - Continous Integer process - a part of Introduction to Software Engineering Course at FPT University - HCM Campus
 
 ## You will find in this repo:
