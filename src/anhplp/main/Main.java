@@ -13,6 +13,14 @@ import static anhplp.util.MathUtils.computeFactorial;
  */
 public class Main {
     public static void main(String[] args) {
+        //hi vọng hàm trả về 120 nếu tính 5!
         System.out.println("5! = " + computeFactorial(5));
+        //hi vọng hàm trả về 1 nếu tính 1!
+        //expected cF(1) = 1
+        System.out.println("1! = " + computeFactorial(1));
+        //expected cF(0) = 0 
+        System.out.println("0! = " + computeFactorial(0));
+        //exception
+        System.out.println("-5! = " + computeFactorial(-5));
     }
 }
