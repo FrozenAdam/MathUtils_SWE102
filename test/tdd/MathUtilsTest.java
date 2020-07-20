@@ -35,8 +35,8 @@ public class MathUtilsTest {
         //kì vọng return 1 exception => code chạy ổn
         //exception không phải là 1 value để so sanh => không xài assertEquals() vì hàm này cần 2 value để so sánh 
         //=> phải xài method khác để bắt các ngoại lệ
-        computeFactorial(-5);
-        computeFactorial(100);
+        //computeFactorial(-5);
+        computeFactorial(16);
     }
 }
 //code có khả năng còn tiềm ẩn lỗi nhưng clean, build luôn ra file jar nếu không sai cú pháp
